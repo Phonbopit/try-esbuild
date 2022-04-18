@@ -1,0 +1,16 @@
+{
+  "name": "try-esbuild",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Phonbopit/try-esbuild.git",
+  "author": "Chai Phonbopit <phonbopit@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild --bundle src/index.jsx src/App.jsx --minify --analyze --outdir=dist"
+  },
+  "dependencies": {
+    "esbuild": "0.14.36",
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
+  }
+}
